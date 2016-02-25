@@ -1,0 +1,21 @@
+/*!
+* Fit Font css v1.0.0
+*
+* Copyright 2016, Dinesh Selvaraj
+*/
+div.container{
+	padding: 20px;
+}
+.no-fitFont, .fitFont {
+    width: 100%;
+    height: 160px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 15px;
+}
+
+.fitFont {
+	width: auto;
+	/*border: solid 100px rgba(0,0,0,0.5);*/
+}
