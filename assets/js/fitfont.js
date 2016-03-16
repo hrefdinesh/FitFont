@@ -27,6 +27,9 @@
 		        while (el.scrollHeight > el.clientHeight) {
 		            _results2.push(resizeText());
 		        }
+		        while (el.scrollWidth > el.clientWidth) {
+		             _results2.push(resizeText());
+		        }
 		        return _results2;
 		    })(el));
 		}
